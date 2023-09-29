@@ -7,7 +7,7 @@ Despite advances in Reinforcement Learning, many sequential decision making task
 
 The requirements are listed in the file: requirements.txt
 
-To install: pip install -r requirements.txt
+To install: `pip install -r requirements.txt`
 
 The experiments were conducted using a 64-bit Linux Machine, having Intel(R) Core(TM) i9-9940X CPU @ 3.30GHz processor and 126GB RAM memory. 
 The maximum duration for running the experiments was set at 24 hours.
@@ -18,7 +18,7 @@ Noisy - grid-world domain with noisy OOMDP
 distractor - grid-world domain with distractor objects
 
 To generate the automaton guided curriculum in the gridworld environment, run:
-$ python generate_curriculum.py
+`$ python generate_curriculum.py`
 (change parameters on #5-6 to vary between sequence-based and graph-based curricula)
 (OOMDP parameters can also be changed on line 10-11)
 
@@ -27,10 +27,10 @@ The curriculum given by generate_curriculum is reflected in the environments.py 
 The paper demonstrates results from 10 trails. The experiments are conducted on seeds 1-10
 
 To test AGCL-sequence on MC, run:
-$ python MC/AGCL-sequence/main.py
+`$ python MC/AGCL-sequence/main.py`
 
 To test AGCL-graph on MC, run:
-$ python MC/AGCL-graph/main.py
+`$ python MC/AGCL-graph/main.py`
 
 Replace MC with Noisy/Distractor to test AGCL on Noisy and Distractor settings.
 
